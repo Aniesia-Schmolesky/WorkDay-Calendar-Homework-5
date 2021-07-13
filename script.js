@@ -1,8 +1,14 @@
-console.log("hello")
-
-//add missing html elements
-
 // working clock and date with moment.js
+  
+//add missing html elements
+// window.onload= function() {
+//     document.querySelector('.container');
+//         .addEventListener('click', function(event) {
+//             containerClicked(event, timeblock);
+//         });
+//         setText(timeblock);
+// }
+
 var date = moment().format("dddd LL");
 $("#date").append(date);
 
